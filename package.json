@@ -1,0 +1,19 @@
+{
+  "name": "Checkers.io",
+  "version": "1.0.0",
+  "description": "Websocket-Arcade production",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theeltahir/websocket-arcade.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theeltahir/websocket-arcade/issues"
+  },
+  "homepage": "https://github.com/theeltahir/websocket-arcade"
+}
