@@ -1,5 +1,17 @@
 {
   GameName: 'Game One',
-  PlayerOnePieces:[{0,0},{0,1},{0,2}],
-  PlayerTwoPieces:[{8,0},{8,1},{8,2}]
+  PlayerOnePieces:[{
+    id:Number,
+    col:Number,
+    row: Number
+    }],
+  PlayerTwoPieces:[{8,0}]
 }
+
+
+
+var pieceSchema = mongoose.Schema({
+    player: String,
+    col: Number,
+    row: Number
+  })
